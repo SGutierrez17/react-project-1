@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Header title="Welcome"/>
       <Footer content="Welcome to my first react project" />
-      <Avatar description="My Avatar"/>
+      <Avatar description="This is My Avatar"/>
       <Card 
       title="Select title"
       content="Insert content"
