@@ -12,7 +12,7 @@ function App() {
       <Header title="Welcome"/>
       <Footer content="Welcome to my first react project" />
       <Avatar 
-        description="My Avatar"
+        description="This My Avatar"
       />
     </div>
   );
