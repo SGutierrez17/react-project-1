@@ -10,14 +10,13 @@ import Header from "./atoms/header/header";
 function App() {
   return (
     <div className="App">
-      <Header title="Welcome"/>
-      <Footer content="Welcome to my first react project" />
+      <Header title="React Beginner's Quiz"/>
       <Avatar description="This is My Avatar"/>
-      <Card 
-      title="Select title"
-      content="Insert content"
-      />
-      <Badge label="Insert text"/>
+      <Card title="Select title 1" content="Insert content 1" />
+      <Card title="Select title 2" content="Insert content 2" />
+      <Card title="Select title 3" content="Insert content 3" />
+      <Badge label="New"/>
+      <Footer content="Created with ❤️ by [Sergio Gutierrez]" />
     </div>
   );
 }
