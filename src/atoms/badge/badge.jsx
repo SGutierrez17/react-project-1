@@ -7,3 +7,5 @@ export default function Badge({label}) {
     <span className="badge">{label}</span>
   )
 }
+
+

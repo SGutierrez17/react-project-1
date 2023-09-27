@@ -2,13 +2,13 @@ import React from 'react'
 
 import "./avatar.css";
 
-import myAvatar from "./myAvatar.svg"
 
-export default function Avatar({description}) {
+
+export default function Avatar({imageSrc, description}) {
   return (    
     <div>
     <h3>{description}</h3>
-    <img className="imageAvatar"src={myAvatar} alt="My Avatar" />
+    <img className="imageAvatar"src={imageSrc} alt="My Avatar" />
     </div>
   )
 }
