@@ -1,5 +1,3 @@
-import "./App.css"
-
 import Avatar from "./atoms/avatar/avatar";
 import Badge from "./atoms/badge/badge";
 import Card from "./atoms/card/card";
@@ -7,6 +5,8 @@ import Footer from "./atoms/footer/footer";
 import Header from "./atoms/header/header";
 
 import myAvatar from "./atoms/avatar/myAvatar.svg"
+
+import "./App.css"
 
 function App() {
   return (
