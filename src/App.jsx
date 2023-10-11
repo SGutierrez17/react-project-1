@@ -16,7 +16,9 @@ export default function App() {
       <Header title="React Beginner's Quiz"/>
       <Avatar imageSrc={myAvatar} description="This is My Avatar"/>
       <Counter />
-      <Card title="Select title 1" content="Insert content 1" />
+      <Card title="Select title 1" content="Insert content 1" >
+        <Counter />
+      </Card>
       <Card title="Select title 2" content="Insert content 2" />
       <Card title="Select title 3" content="Insert content 3" />
       <Badge label="New"/>
