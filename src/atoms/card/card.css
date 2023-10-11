@@ -1,0 +1,12 @@
+.titleCard{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(144, 77, 54);
+
+}
+
+.contentCard{
+    font-size: 12px;
+    text-transform: capitalize;
+    color: rgb(66, 122, 131);
+}
